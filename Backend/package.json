@@ -1,14 +1,14 @@
 {
-  "name": "chatty",
+  "name": "Linkup",
   "version": "1.0.0",
-  "description": "this is backend for my sweet startup",
+  "description": "The chat Backend",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
   },
   "keywords": [
-    "secourity"
+    "Linkup"
   ],
   "author": "Vishal Singh",
   "license": "ISC",
@@ -29,6 +29,8 @@
     "mongoose": "^8.9.2",
     "mongoose-aggregate-paginate-v2": "^1.1.2",
     "multer": "^1.4.5-lts.1",
-    "nodemailer": "^6.9.16"
+    "nodemailer": "^6.9.16",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.1"
   }
 }
